@@ -12,7 +12,10 @@
     <engines>
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
-
+        
+    <repo>https://github.com/steindekker/cordova-plugin-background-geolocation</repo>
+    <issue>https://github.com/steindekker/cordova-plugin-background-geolocation/issues</issue>
+        
     <js-module src="www/backgroundGeolocation.js" name="backgroundGeolocation">
         <clobbers target="backgroundGeolocation"/>
     </js-module>
